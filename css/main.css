@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@media(min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.big-box {
+    margin: 50px 0;
+}
+
+.big-box .text {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.big-box .text .one {
+    margin: 0 auto;
+    color: #777;
+}
+
+.big-box .text .one-1 {
+    font-weight: 800;
+    color: black;
+    margin: 0;
+}
+
+.big-box .text .two {
+    font-size: 15px;
+    color: #777;
+}
+
+.cards {
+    margin: 50px 0;
+}
+
+.cards .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+.cards .container .box .card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 5px 14px 1px #777;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+}
+
+
+.cards .container .box .card .textt h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.cards .container .box .card .textt p {
+    font-size: 13px;
+    color: #777;
+}
+
+.cards .container .box .card .image {
+    text-align: end;
+}
+
+.cards .container .box .card .image img {
+    margin-top: 25px;
+}
+
+.cards .container .box:first-child .card {
+    border-top: 3px solid hsl(180, 62%, 55%);
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.cards .container .box:nth-child(2) .card:first-child {
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.cards .container .box:nth-child(2) .card:last-child {
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.cards .container .box:last-child .card {
+    border-top: 3px solid hsl(212, 86%, 64%);
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+@media(max-width:768px) {
+    .big-box .text {
+        width: 51%;
+    }
+    .cards .container .box:nth-child(2) {
+        position: relative;
+        top: -15px;
+}
+.cards .container .box:last-child {
+    position: relative;
+    top: -60px;
+}
+}
+
