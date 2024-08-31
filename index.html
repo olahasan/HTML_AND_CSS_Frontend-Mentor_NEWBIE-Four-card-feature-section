@@ -1,92 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- next meta, tells the browser to use the most modern version, standards-compliant rendering mode available -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Four card feature section</title>
+    <link rel="stylesheet" href="css/main.css" />
 
-  <title>Frontend Mentor | Four card feature section</title>
-  <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cairo:wght@700&family=Inter:wght@400;700&family=Jomhuria&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Open+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cairo:wght@700&family=Inter:wght@400;700&family=Jomhuria&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Open+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
-</head>
+  <body>
+    <div class="big-box">
+      <div class="text">
+        <p class="one">Reliable, efficient delivery</p>
+        <p class="one-1">Powered by Technology</p>
 
-<body>
-  <div class="big-box">
+        <p class="two">
+          Our Artificial Intelligence powered tools use millions of project data
+          <br />points to ensure that your project is successful
+        </p>
+      </div>
 
-    <div class="text">
-
-      <p class="one">Reliable, efficient delivery</p>
-      <p class="one-1">Powered by Technology</p>
-
-      <p class="two"> Our Artificial Intelligence powered tools use millions of project data <br />points
-        to ensure that your project is successful</p>
-
-    </div>
-
-    <div class="cards">
-      <div class="container">
-        <div class="box">
-          <div class="card">
-
-            <div class="textt">
-              <h2>Supervisor</h2>
-              <p>Monitors activity to identify project roadblocks</p>
-            </div>
-            <div class="image">
-              <img src="images/icon-supervisor.svg" alt="pic" />
-            </div>
-
-          </div>
-        </div>
-
-        <div class="box">
-
-          <div class="card">
-            <div class="textt">
-              <h2>Team Builder</h2>
-              <p>Scans our talent network to create the optimal team for your project</p>
-            </div>
-            <div class="image">
-              <img src="images/icon-team-builder.svg" alt="pic" />
+      <div class="cards">
+        <div class="container">
+          <div class="box">
+            <div class="card">
+              <div class="textt">
+                <h2>Supervisor</h2>
+                <p>Monitors activity to identify project roadblocks</p>
+              </div>
+              <div class="image">
+                <img
+                  loading="lazy"
+                  src="images/icon-supervisor.svg"
+                  alt="small Icon"
+                />
+              </div>
             </div>
           </div>
 
-          <div class="card">
-            <div class="textt">
-              <h2>Karma</h2>
-              <p>Regularly evaluates our talent to ensure quality</p>
-            </div>
-            <div class="image">
-              <img src="images/icon-karma.svg" alt="pic" />
+          <div class="box">
+            <div class="card">
+              <div class="textt">
+                <h2>Team Builder</h2>
+                <p>
+                  Scans our talent network to create the optimal team for your
+                  project
+                </p>
+              </div>
+              <div class="image">
+                <img
+                  loading="lazy"
+                  src="images/icon-team-builder.svg"
+                  alt="small Icon"
+                />
+              </div>
             </div>
 
+            <div class="card">
+              <div class="textt">
+                <h2>Karma</h2>
+                <p>Regularly evaluates our talent to ensure quality</p>
+              </div>
+              <div class="image">
+                <img
+                  loading="lazy"
+                  src="images/icon-karma.svg"
+                  alt="small Icon"
+                />
+              </div>
+            </div>
           </div>
-
-        </div>
-        <div class="box">
-          <div class="card">
-            <div class="textt">
-              <h2>Calculator</h2>
-              <p>Uses data from past projects to provide better delivery estimates</p>
-            </div>
-            <div class="image">
-              <img src="images/icon-calculator.svg" alt="pic" />
+          <div class="box">
+            <div class="card">
+              <div class="textt">
+                <h2>Calculator</h2>
+                <p>
+                  Uses data from past projects to provide better delivery
+                  estimates
+                </p>
+              </div>
+              <div class="image">
+                <img
+                  loading="lazy"
+                  src="images/icon-calculator.svg"
+                  alt="small Icon"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
-
-  </div>
-
-</body>
-
+  </body>
 </html>
